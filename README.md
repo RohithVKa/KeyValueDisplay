@@ -47,7 +47,7 @@
 ----
 ----     
 
-#Key value displaying
+# Key value displaying
 
     <KeyValueDisplay keyData="iPhone" valueData="$343"/>
 
@@ -73,7 +73,7 @@
 *if you pass your custom component to either key or value, then you are having full control on it, like adding action, etc., Don't forget to style the "textAlign" based on your needs inside your custom component.*
 
 
-#Available props
+# Available props
 
             keyBoxStyles = [],
             valueBoxStyles = [],
