@@ -47,10 +47,16 @@
 ----
 ----     
 
-##Key value displaying
+#Key value displaying
 
     <KeyValueDisplay keyData="iPhone" valueData="$343"/>
 
+    <KeyValueDisplay keyData="Email" valueData="Vijay.Apple.Dev@gmail.com"/>
+
+    <KeyValueDisplay keyData="Phone" valueData="+91 9585185595"/>
+
+    <KeyValueDisplay keyData="Full Stack Developer" valueData="http://fullstackdeveloper-vijay.blogspot.com"/>
+    
 ----
 # Note on Style props
 *All style props should be passed in Array format, refer the below "keyStyles", to an example.*
