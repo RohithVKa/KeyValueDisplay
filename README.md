@@ -2,7 +2,7 @@
 ![KeyValueDisplayOutput](KeyValueDisplayOutput.png)
 
 # Usage
-## Global Config can be applied to the App.
+# Global Config can be applied to the App.
 *You could use the KeyValueDisplay with the same UI appearance & style in the entire App. In that case you could just use this below global config, that will apply to all KeyValueDisplay component. You could use the "isDebugging" for seeing the key,value boxes with background colors.*
 
     import KeyValueDisplay from 'react-native-key-value-display'
@@ -52,13 +52,13 @@
     <KeyValueDisplay keyData="iPhone" valueData="$343"/>
 
 ----
-## Note on Style props
+# Note on Style props
 *All style props should be passed in Array format, refer the below "keyStyles", to an example.*
 
             <KeyValueDisplay keyData="iPhone" valueData="$343" displayMode="RightLeft" keyValueGap={40} keyStyles={[{color:"red"}]}/>
 
 
-## Pass My custom Key/Value component
+# Pass My custom Key/Value component
 
             <KeyValueDisplay leftChild={<Text>iPhone</Text>} valueData="$343"/>
 
@@ -67,7 +67,7 @@
 *if you pass your custom component to either key or value, then you are having full control on it, like adding action, etc., Don't forget to style the "textAlign" based on your needs inside your custom component.*
 
 
-##Available props
+#Available props
 
             keyBoxStyles = [],
             valueBoxStyles = [],
